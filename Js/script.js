@@ -99,7 +99,7 @@ function filterTasks(taskCategory) {
         displayTasks(completedTasks);
     } else {
         let waitingTasks = tasks.filter((task, index) => {
-            return task.taskStatus === false
+            return task.taskStatus === false;
         });
         displayTasks(waitingTasks);
     }

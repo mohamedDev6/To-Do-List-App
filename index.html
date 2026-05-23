@@ -1,47 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List App</title>
-    <link rel="stylesheet" href="./Styles/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="./Styles/style.css">
-</head>
-<body>
-    <div class="app">
-        <h1>Task Manager</h1>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>To Do List App</title>
+        <link rel="stylesheet" href="./Styles/bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" href="./Styles/style.css" />
+    </head>
+    <body>
+        <div class="app">
+            <h1>Task Manager</h1>
 
-        <div class="form">
-            <input type="text" id="taskName" placeholder="Task Name" class="form-control" />
-            <input type="text" id="taskDesc" placeholder="Task Description" class="form-control" />
-            <button id="addUpdateTask"></button>
+            <div class="form">
+                <div class="inputs">
+                    <input type="text" id="taskName" placeholder="Task Name" class="form-control" />
+                    <input type="text" id="taskDesc" placeholder="Task Description" class="form-control" />
+                </div>
+                <button id="addUpdateTask"></button>
+            </div>
+
+            <div class="d-flex flex-wrap justify-content-center align-items-center gap-3 my-5">
+                <button class="btn btn-primary" id="all">All Tasks</button>
+                <button class="btn btn-success" id="completed">Completed Tasks</button>
+                <button class="btn btn-warning" id="waiting">Waiting Tasks</button>
+                <button class="btn btn-danger" id="clear">Clear Tasks</button>
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <th>Task Number</th>
+                        <th>Task Name</th>
+                        <th>Task Description</th>
+                        <th>Task Status</th>
+                        <th>Actions</th>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
         </div>
 
-        <div class="d-flex flex-wrap justify-content-center align-items-center gap-3 my-5">
-            <button class="btn btn-primary" id="all">All Tasks</button>
-            <button class="btn btn-success" id="completed">Completed Tasks</button>
-            <button class="btn btn-warning" id="waiting">Waiting Tasks</button>
-            <button class="btn btn-danger" id="clear">Clear Tasks</button>
-        </div>
-
-        
-        <div class="table-wrapper">
-            <table>
-                <thead>
-                    <th>Task Number</th>
-                    <th>Task Name</th>
-                    <th>Task Description</th>
-                    <th>Task Status</th>
-                    <th>Actions</th>
-                </thead>
-                <tbody>
-                    
-                </tbody>
-            </table>
-        </div>
-    </div>
-
-    <script src="./Styles/bootstrap/js/bootstrap.js"></script>
-    <script src="./Js/script.js"></script>
-</body>
+        <script src="./Styles/bootstrap/js/bootstrap.js"></script>
+        <script src="./Js/script.js"></script>
+    </body>
 </html>

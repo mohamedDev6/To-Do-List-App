@@ -1,36 +1,31 @@
-📝 1. Todo List Application
-1.1 Overview
+📝 Todo List Application
 
-This is a simple Todo List Application built using HTML, CSS, Bootstrap, and Vanilla JavaScript.
-The project allows users to manage daily tasks efficiently with a clean and interactive UI.
+- A simple and interactive Todo List application built using HTML, CSS, Bootstrap, and Vanilla JavaScript.
+- This project helps users manage their daily tasks in an organized and efficient way.
+##
+🚀 Features
+- Add new tasks with ease
+- Edit existing tasks
+- Delete individual tasks
+- Mark tasks as completed or not completed
+- Persistent data storage using Local Storage
+- Simple and clean UI using Bootstrap
+##
+🛠️ Tech Stack
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript (Vanilla JS)
+- Local Storage API
+##
+📚 What I Learned
 
-1.2 Features
-Add new tasks
-Edit existing tasks
-Delete tasks
-Mark tasks as completed / not completed
-Persistent storage using Local Storage
-1.3 Tech Stack
-HTML5
-CSS3
-Bootstrap
-JavaScript (Vanilla JS)
-Local Storage API
-1.4 What I Learned
-
-During this project, I improved my skills in:
-
-DOM Manipulation
-Handling user events
-CRUD operations (Create, Read, Update, Delete)
-Using Local Storage for data persistence
-Structuring JavaScript logic in a cleaner way
-1.5 How to Run
-Download or clone the repository
-Open index.html in your browser
-Start managing your tasks
-1.6 Future Improvements
-Add drag & drop functionality
-Add task due dates
-Improve UI/UX design
-Add task categories and filters
+- While building this project, I practiced and improved my understanding of:
+  - DOM Manipulation
+  - Handling user input events
+  - Working with Local Storage
+  - Basic CRUD operations (Create, Read, Update, Delete)
+  - Structuring JavaScript logic in a clean way
+  - Start adding and managing your tasks
+##
+🔗 Live Demo: https://mohameddev6.github.io/To-Do-List-App/
